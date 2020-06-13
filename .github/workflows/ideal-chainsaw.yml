@@ -1,0 +1,12 @@
+name: Ideal Chainsaw
+
+on: [push]
+
+jobs:
+  hello-world:
+    name: Hello World
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print a greeting
+      run: |
+        echo Hello world!
